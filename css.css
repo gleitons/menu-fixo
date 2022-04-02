@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main {
+    
+    padding: 30px 20px;
+}
+head {
+    width: 100%;
+    margin: auto;
+}
+.logo {
+    margin: auto;
+    text-align: center;
+}
+.image {
+    width: 150px;
+}
+nav {
+    width: 100%;
+    
+}
+
+nav ul{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+    padding: 5px;
+}
+nav ul li{
+    width: 100%;
+    
+}
+.fixonoTopo {
+    position: fixed;
+    top: 0;
+    background-color: blue;
+    color: rgb(255, 255, 255);
+    transition: 300ms;
+}
+
+article {
+    width: 60%;
+    margin: auto;
+}
+.fixa {
+    position: fixed;
+   -webkit-sticky: fixed;
+}
